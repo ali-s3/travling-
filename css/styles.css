@@ -21,7 +21,7 @@ h1{
     background: url(../image/header-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     position: relative;
 }
 .container{
