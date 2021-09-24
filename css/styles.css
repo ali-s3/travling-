@@ -22,7 +22,7 @@ h1{
     background: url(../image/header-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:center;
+    background-size:cover;
     background-attachment: fixed;
     position: relative;
 }
