@@ -18,11 +18,12 @@ h1{
 }
 .header{
     
-    height: 25vw;
+    height: 45vw;
     background: url(../image/header-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:center;
+    background-attachment: fixed;
     position: relative;
 }
 .container{
@@ -70,7 +71,7 @@ h1,P{
 .header2{
     
     display: inline-block;
-    margin: 5vw 20vw;
+    margin: 17vw 20vw;
     text-align: center;
     background-size:auto;
 }
@@ -95,12 +96,12 @@ h1,P{
     padding: 30px;
 }
 .row{
-    
+    border: 2px solid red;
     height: 200px;
     margin: 1%;
 }
 .imgbox,.txtbox{
-    
+    border: 2px solid red;
 }
 .txtbox1{
     float: right;
