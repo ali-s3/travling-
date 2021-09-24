@@ -95,12 +95,12 @@ h1,P{
     padding: 30px;
 }
 .row{
-    border: 2px solid red;
+    
     height: 200px;
     margin: 1%;
 }
 .imgbox,.txtbox{
-    border: 2px solid red;
+    
 }
 .txtbox1{
     float: right;
