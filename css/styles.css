@@ -17,8 +17,6 @@ h1{
     font-size: 10rem;
 }
 .header{
-    
-    height: 45vw;
     background: url(../image/header-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -94,12 +92,11 @@ h1,P{
     padding: 30px;
 }
 .row{
-    border: 2px solid red;
     height: 200px;
     margin: 1%;
 }
 .imgbox,.txtbox{
-    border: 2px solid red;
+    
 }
 .txtbox1{
     float: right;
