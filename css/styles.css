@@ -70,6 +70,7 @@ h1,P{
     margin: 25vw;
     padding: 10rem;
     text-align: center;
+    background-size: cover;
 }
 .btn{
     display: inline-block;
