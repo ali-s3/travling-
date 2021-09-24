@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    font-size: 10rem;
+}
+h1{
+    font-size: 10rem;
+}
+.header{
+    height: 95vh;
+    background: url(../image/header-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0%auto;
+}
+li{
+    display: inline-block;
+    padding: 2rem;
+    margin-bottom: 1.6rem;
+}
+h1,a,P{
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.nav{
+    
+}
+.header .nav .ul{
+    float: right;
+}
+.header .nav .logo{
+    float: left;
+    padding: 2rem;
+}
+.nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.p1{
+    color: white;
+    font-size: 1vw;
+}
+.header2{
+    border: 2px solid white;
+    display: inline-block;
+    margin: 25vw;
+    padding: 10rem;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 1000;
+    font-size: 6em;
+    margin: 0.5em 0em;
+    color: tomato;
+}
+.btn-primary{
+    background-color: white;
+    border-radius: 10rem;
+}
+.btn-primary:hover{
+    background-color: white;
+}
+/*  --------------------show cASE............. */
+.showcase{
+    background-color: lightgray;
+    padding: 100px;
+}
+.row{
+    border: 2px solid red;
+    height: 200px;
+    margin: 5%;
+}
+.imgbox,.txtbox{
+    border: 2px solid red;
+}
+.txtbox1{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+}
+.imgbox1{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/showcase-photo3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgbox2{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/showcase-photo1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.name1,p{
+    color: black;
+    font-size: 1.7vw;
+    bottom: 40%;
+}
+.txtbox2{
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+}
