@@ -31,13 +31,18 @@ h1{
 }
 li{
     display: inline-block;
-    padding: 2rem;
+    padding: 3rem;
     margin-bottom: 1.6rem;
 }
-h1,a,P{
+a{
     color: white;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.5vw;
+}
+h1,P{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
 }
 .nav{
     
@@ -48,6 +53,7 @@ h1,a,P{
 .header .nav .logo{
     float: left;
     padding: 2rem;
+    font-size: 2vw;
 }
 .nav::after{
     content: "";
