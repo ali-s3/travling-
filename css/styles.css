@@ -17,13 +17,15 @@ h1{
     font-size: 10rem;
 }
 .header{
+    
     background: url(../image/header-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    
+    
 }
 .container{
-    
     height: 3vw;
     max-width: 1200px;
     width: 80%;
@@ -47,10 +49,10 @@ h1,P{
 .nav{
     
 }
-.header .nav .ul{
+.nav .ul{
     float: right;
 }
-.header .nav .logo{
+.nav .logo{
     float: left;
     padding: 1vw;
     font-size: 2vw;
@@ -70,6 +72,9 @@ h1,P{
     margin: 17vw 20vw;
     text-align: center;
     background-size:auto;
+}
+.bg-dark{
+    background-color: #263238;
 }
 .btn{
     display: inline-block;
@@ -92,18 +97,21 @@ h1,P{
     padding: 30px;
 }
 .row{
-    height: 200px;
+
+    height: 350px;
     margin: 1%;
 }
+.row1{
+    margin-bottom: 10rem;
+}
 .imgbox,.txtbox{
-    
+
 }
 .txtbox1{
     float: right;
     width: 50%;
     height: 100%;
-    padding: 3vw;
-    margin-top: 2vw;
+    padding: 3rem;
 }
 .imgbox1{
     float: left;
@@ -134,6 +142,98 @@ h1,P{
     float: left;
     width: 50%;
     height: 100%;
-     padding: 3vw;
+    padding: 2%;
+}
+/*  --------------------about............. */
+.about{
+    padding: 5rem 0;
+    margin: 15%;
+    height: 35vw;
+    margin-top: 5%;
+
+}
+.container2{
+    border-bottom:  orangered solid 2px;
+    height: 3vw;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0%auto;
+}
+.about-heading{
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.about-par{
+    padding-top: 1vw;
+    font-size: 1vw;
+}
+/*  --------------------about wraping............. */
+.LIST{
+    display: block;
+    font-size: 1vw;
+}
+.LIST::before{
+    content: '\2713';
+    color: orangered;
+    clear: both;
+    
+}
+ul{
+    list-style-type:none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.about-wraper{
+    padding: 2vw;
+    height: 10vw;
+}
+/*  --------------------about div-items............. */
+.main-div-item{
+    height: 5vw;
     margin-top: 2vw;
+}
+.div-item{
+    height: 2vw;
+    display: inline-block;
+    margin-left: 6vw;
+    text-align: center;
+}
+span{
+    color: orangered;
+    font-size: 2vw;
+}
+.pa{
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+.end{
+    border: peachpuff solid 2px;
+    height: 6vw;
+    background-color: orangered;
+}
+.en{
+    border: white solid 2px;
+    height: 4vw;
+    margin-top: 1vw;
+    width: 20vw;
+    float: right;
+    margin-right: 3vw;
+}
+.pend{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1vw;
+}
+.e{
+    float: left;
+}
+.pendd{
+    color: white;
+    margin-top: 2vw;
+    font-size: 1vw;
 }
